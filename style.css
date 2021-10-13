@@ -1,0 +1,519 @@
+@import url("https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600;700&display=swap");
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "Quicksand", sans-serif;
+}
+
+header {
+  width: 100%;
+  height: 90vh;
+  background-image: url("images/bg-header-desktop.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+header h1 {
+  padding-top: 50px;
+  font-size: 2.6rem;
+  color: #4c545d;
+}
+
+header p {
+  padding-top: 20px;
+  width: 700px;
+  text-align: center;
+  font-size: 1.2rem;
+  color: #9fabb2;
+  font-weight: bold;
+}
+
+header .buttons {
+  padding-top: 40px;
+}
+
+header .buttons button {
+  margin: 0 10px;
+  padding: 20px 30px;
+  font-size: 1rem;
+  color: white;
+  font-weight: bolder;
+  border-radius: 50px;
+  border: none;
+}
+
+header .buttons button:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+header .buttons .ios {
+  background-color: #26baa4;
+  -webkit-box-shadow: 0px 4px 2px #1e8a7a;
+          box-shadow: 0px 4px 2px #1e8a7a;
+}
+
+header .buttons .mac {
+  background-color: #6173ff;
+  -webkit-box-shadow: 0px 4px 2px #3f4aa2;
+          box-shadow: 0px 4px 2px #3f4aa2;
+}
+
+.snippets,
+.access,
+.workflow,
+.downloads {
+  width: 100%;
+  text-align: center;
+}
+
+.snippets h1,
+.access h1,
+.workflow h1,
+.downloads h1 {
+  font-size: 2rem;
+  color: #4c545d;
+  padding: 20px 0;
+}
+
+.snippets p,
+.access p,
+.workflow p,
+.downloads p {
+  width: 700px;
+  margin: 0 auto;
+  font-size: 1.2rem;
+  color: #9fabb2;
+  font-weight: bold;
+}
+
+.access img {
+  padding-top: 50px;
+}
+
+.downloads {
+  padding: 100px 0;
+}
+
+.downloads .buttons {
+  padding: 40px 0;
+}
+
+.downloads .buttons button {
+  margin: 0 10px;
+  padding: 20px 30px;
+  font-size: 1rem;
+  color: white;
+  font-weight: bolder;
+  border-radius: 50px;
+  border: none;
+}
+
+.downloads .buttons button:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+.downloads .buttons .ios {
+  background-color: #26baa4;
+  -webkit-box-shadow: 0px 4px 2px #1e8a7a;
+          box-shadow: 0px 4px 2px #1e8a7a;
+}
+
+.downloads .buttons .mac {
+  background-color: #6173ff;
+  -webkit-box-shadow: 0px 4px 2px #3f4aa2;
+          box-shadow: 0px 4px 2px #3f4aa2;
+}
+
+.workflow {
+  padding-bottom: 50px;
+}
+
+.workflow .workflow-grid-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  padding: 50px;
+}
+
+.workflow .workflow-grid-container .grid-item {
+  min-width: 33.33%;
+  -webkit-box-flex: 33.33%;
+      -ms-flex: 33.33%;
+          flex: 33.33%;
+  text-align: center;
+  padding: 40px;
+}
+
+.workflow .workflow-grid-container .grid-item p {
+  width: 100%;
+}
+
+.brands {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  padding: 20px 100px;
+}
+
+.brands .brand-div {
+  -webkit-box-flex: 20%;
+      -ms-flex: 20%;
+          flex: 20%;
+  min-width: 20%;
+  padding: 50px;
+}
+
+.brands .brand-div img {
+  width: 100%;
+}
+
+.features-container {
+  width: 100%;
+  height: 91vh;
+  padding-top: 100px;
+  margin-bottom: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.features-container .img {
+  width: 50%;
+}
+
+.features-container .img img {
+  width: 100%;
+  -webkit-transform: translateX(-50px);
+          transform: translateX(-50px);
+}
+
+.features-container .features {
+  width: 50%;
+  height: 100%;
+  padding: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.features-container .features .feature-box {
+  width: 100%;
+  color: #9fabb2;
+}
+
+.features-container .features .feature-box h2 {
+  font-size: 2rem;
+  padding: 10px 0;
+  color: #4c545d;
+}
+
+.features-container .features .feature-box p {
+  font-size: 1.2rem;
+  font-weight: bold;
+  width: 500px;
+}
+
+footer {
+  background-color: #dfe8ec;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  padding: 50px 100px;
+}
+
+footer .small-sections {
+  -webkit-box-flex: 15%;
+      -ms-flex: 15%;
+          flex: 15%;
+  min-width: 15%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: left;
+      -ms-flex-align: left;
+          align-items: left;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+footer .small-sections img {
+  width: 100px;
+}
+
+footer .small-sections a {
+  display: block;
+  color: #4c545d;
+  font-size: 1.2rem;
+  text-decoration: none;
+  padding: 20px;
+}
+
+footer .small-sections a:hover {
+  color: #26baa4;
+}
+
+footer .full-section {
+  -webkit-box-flex: 40%;
+      -ms-flex: 40%;
+          flex: 40%;
+  min-width: 40%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: right;
+      -ms-flex-pack: right;
+          justify-content: right;
+}
+
+footer .full-section .social-media span i {
+  font-size: 1.6rem;
+  padding: 20px;
+  color: #4c545d;
+}
+
+footer .full-section .social-media span i:hover {
+  color: #26baa4;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 1157px) {
+  .brands {
+    padding: 20px;
+  }
+}
+
+@media screen and (max-width: 1057px) {
+  .features-container .features .feature-box p {
+    width: 100%;
+  }
+  footer {
+    padding: 50px;
+  }
+}
+
+@media screen and (max-width: 1157px) {
+  .brands .brand-div {
+    padding: 20px;
+  }
+}
+
+@media screen and (max-width: 921px) {
+  .access img {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 789px) {
+  .workflow .workflow-grid-container {
+    padding: 50px 10px;
+  }
+  .workflow .workflow-grid-container .grid-item {
+    padding: 20px;
+  }
+  footer .small-sections {
+    -webkit-box-flex: 25%;
+        -ms-flex: 25%;
+            flex: 25%;
+    min-width: 25%;
+  }
+  footer .full-section {
+    -webkit-box-flex: 100%;
+        -ms-flex: 100%;
+            flex: 100%;
+    min-width: 100%;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+
+@media screen and (max-width: 715px) {
+  header h1 {
+    text-align: center;
+  }
+  header p {
+    width: 100%;
+  }
+  .snippets,
+  .access,
+  .workflow,
+  .downloads {
+    padding: 20px;
+  }
+  .snippets h1,
+  .access h1,
+  .workflow h1,
+  .downloads h1 {
+    text-align: center;
+  }
+  .snippets p,
+  .access p,
+  .workflow p,
+  .downloads p {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 695px) {
+  .features-container {
+    height: auto;
+    display: block;
+  }
+  .features-container .features,
+  .features-container .img {
+    width: 100%;
+  }
+  .features-container .features img,
+  .features-container .img img {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+    padding: 50px;
+  }
+  .features-container .feature-box {
+    padding: 20px 0;
+  }
+}
+
+@media screen and (max-width: 651px) {
+  .brands .brand-div {
+    -webkit-box-flex: 33.33%;
+        -ms-flex: 33.33%;
+            flex: 33.33%;
+    min-width: 33.33%;
+  }
+  .brands .brand-div img {
+    width: 80%;
+  }
+  footer .small-sections {
+    -webkit-box-flex: 50%;
+        -ms-flex: 50%;
+            flex: 50%;
+    min-width: 50%;
+  }
+}
+
+@media screen and (max-width: 533px) {
+  .workflow .workflow-grid-container .grid-item {
+    min-width: 50%;
+    -webkit-box-flex: 50%;
+        -ms-flex: 50%;
+            flex: 50%;
+  }
+  .downloads .buttons {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .downloads .buttons button {
+    margin: 10px;
+  }
+}
+
+@media screen and (max-width: 451px) {
+  header {
+    padding: 20px;
+    height: auto;
+  }
+  header h1 {
+    text-align: center;
+  }
+  header p {
+    width: 100%;
+  }
+  header .buttons button {
+    display: block;
+    margin-top: 10px;
+  }
+}
+
+@media screen and (max-width: 439px) {
+  .workflow .workflow-grid-container .grid-item {
+    min-width: 100%;
+    -webkit-box-flex: 100%;
+        -ms-flex: 100%;
+            flex: 100%;
+  }
+  .brands .brand-div {
+    -webkit-box-flex: 50%;
+        -ms-flex: 50%;
+            flex: 50%;
+    min-width: 50%;
+  }
+  footer {
+    padding: 50px 20px;
+  }
+  footer .small-sections {
+    -webkit-box-flex: 100%;
+        -ms-flex: 100%;
+            flex: 100%;
+    min-width: 100%;
+    text-align: center;
+  }
+  footer .small-sections img {
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 299px) {
+  .brands .brand-div {
+    -webkit-box-flex: 100%;
+        -ms-flex: 100%;
+            flex: 100%;
+    min-width: 100%;
+    text-align: center;
+  }
+}
+/*# sourceMappingURL=style.css.map */
